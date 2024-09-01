@@ -5,7 +5,7 @@ const webpack = require("webpack"),
 
 
     module.exports = {
-        entry: ["./src/client/index.js"],
+        entry: ["./client/index.js"],
         module: {
             rules: [
                 {
@@ -26,7 +26,7 @@ const webpack = require("webpack"),
           },
         plugins: [
             new htmlWebpackPlugin({
-                template: "./src/client/views/index.html",
+                template: "./client/views/index.html",
                 filename: "./index.html"
             }),
             new CleanWebpackPlugin({

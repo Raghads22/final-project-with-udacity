@@ -29,13 +29,6 @@ const weatherTemp = async(lo, la, Rdays, key) => {
         console.log("******************************************************");
         return weather_data
     }
-    // if(!data.geonames.length){
-    //     const errMsg = {
-    //         message: "no city with that name. please make sure of your spelling",
-    //         error: true
-    //     }
-    //     return errMsg
-    // }
 }
 
 

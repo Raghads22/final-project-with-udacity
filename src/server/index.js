@@ -19,8 +19,6 @@ app.use(cors())
 
 port = 8000
 
-//I had to fix an issue with the env file that it doesn't want to get the integers in my username so i made
-// a separate const for them
 const userstring = process.env.USERNAME
 const usernumber = process.env.USERNUMBER
 const WEATHER_KEY = process.env.WEATHER_KEY
